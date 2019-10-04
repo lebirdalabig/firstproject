@@ -1,0 +1,20 @@
+=============home.blade.php==============
+
+<!DOCTYPE html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+    <head>
+        @extends('layouts.header')
+    </head>
+    <body>
+       <div class="content">
+            <div class="title m-b-md">
+                Welcome!!!
+            </div>
+
+            <div class="links">
+                <a href="https://laravel.com/docs">Register</a>
+                <a href="https://laracasts.com">Login</a>
+            </div>
+        </div>
+    </body>
+</html>
